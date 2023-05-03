@@ -6,7 +6,9 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const path = require('path');
 const expressValidator = require('express-validator');
-require('dotenv').config();
+ require('dotenv').config();
+// const dotenv = require('dotenv');
+// dotenv.config();
 // import routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
@@ -22,7 +24,7 @@ const app = express();
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      process.env.MONGOURI,
+      process.env.MONGODB_URI,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,

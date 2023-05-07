@@ -123,8 +123,8 @@ const Shop = () => {
 
   return (
     <Layout
-      title='Shop page'
-      description='Search and find books'
+      title='Handicrafters'
+      description='Buy handmade products'
       className='container-fluid'
     >
       <Search />

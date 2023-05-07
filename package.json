@@ -1,7 +1,7 @@
 {
-  "name": "mern-ecommerce",
+  "name": "Handicrafters",
   "version": "1.0.0",
-  "description": "ecommerce site",
+  "description": "group project of wadl",
   "engines": {
     "node": "18.x",
     "npm": "7.x"
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashraf-kabir/mern-ecommerce.git"
+    "url": "git+https://github.com/SandeshDolas/handicrafters.git"
   },
   "keywords": [],
   "author": "Ashraf Kabir",
